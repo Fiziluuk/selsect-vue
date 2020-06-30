@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id = "divcss5">
     <form ref="form">
       <br />
       <input type="text" v-model="number" />
@@ -30,3 +30,20 @@ export default {
   }
 };
 </script>
+<style scoped>
+h1 {
+  color: blue;
+}
+ul {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+ul ul {
+  margin-top: 00px;
+}
+ul > li {
+  margin-left: 10px;
+}
+body{ text-align:center} 
+#divcss5{margin:0 auto;border:1px solid #000;width:300px;height:100px}
+</style>

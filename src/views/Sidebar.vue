@@ -8,7 +8,7 @@
 </template>
 <style scoped>
 h1 {
-  color: red;
+  color: black;
 }
 ul {
   margin-top: 20px;
